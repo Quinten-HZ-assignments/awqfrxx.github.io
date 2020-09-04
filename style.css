@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke;
+    color: #0078cc;
+}
+
+.hz-logo {
+    width: 156px;
+    height: 40px;
+}
+
+.topborder {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.bigborder {
+    border-color: black;
+    border-width: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    background-color: blue;
+}
