@@ -3,32 +3,92 @@
 <head>
     <title>The home page</title>
     <link href="style.css" rel="stylesheet" type="text/css">  <!-- Links to the style.css page! -->
+    <style>
+        #osu {
+        width: 120px;
+        height: 120px;
+        margin: 50px;
+        position: relative;
+        border-radius: 50%;
+        border-color: black;
+        border-width: 4px;
+        border-style: solid;
+        background: linear-gradient(35deg, #ffc9e5, #ec7c9e);
+        animation-name: move;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        color:#fff3f8;
+        text-align: center;
+        font-size: 35px;
+        padding: 85px, 25px, 0px, 25px;
+        
+        }
+    
+      @keyframes move{
+        0% {
+          left: 0px;
+        } 
+        50% {
+          left: 85%;
+        }
+        100% {
+          left: 0px;
+        }
+      }
+    </style>
 </head>
 
+
 <body> 
-    <a href="#"><img src="https://hz.nl/assets/svg/hz-logo.svg" class="hz-logo topborder"></a>
-    
-    <ul>
-        <li><a href="#Aboutme">Home page</a></li>
-        <li><a href="profile.html">Profile page</a></li>
-        <li><a href="#">The dashboard</a></li>
-        <li><a href="#">Frequently asked questions</a></li>
-    </ul>
-    
-    <h1 id="Aboutme">About me</h1>
-        <p>This website is about me. If you want to visit the other pages please look at the bottom of the page for the links!</p>
+    <!--<a href="#"><img src="https://hz.nl/assets/svg/hz-logo.svg" class="hz-logo topborder"></a> This is the HZ logo in the upper left corner -->
 
-    <h2>Links</h2>
+    <div class="navigation">
+        <ul>
+            <li><a href="index.html">Home page</a></li>
+            <li><a href="profile.html">Profile page</a></li>
+            <li><a href="dashboard.html">The dashboard</a></li>
+            <li><a href="faq.html">Frequently asked questions</a></li>
+        </ul>
+    </div>  
     
-    <p>
-    A <a target=_blank href="profile.html">link</a> to the profile page.
-    </p>
+    <div class="topborder" style="margin-top: 75px;">
+        <div style="padding: 20px 500px 20px 500px; background-color: #4285f4; background: linear-gradient(75deg, rgba(235,13,13,1) 0%, rgba(255,255,255,1) 50%, rgba(0,31,255,1) 100%); text-align: center;">
+            <h1 style="font-family: monospace, sans-serif; text-transform: uppercase;">Welcome to my site!</h1>
+            <img style="width: 275px; border-color: black; border-width: 4px; border-style: solid; border-radius: 50%;" src="https://cdn.discordapp.com/attachments/716513701783535636/750298985427894312/me.jpg">
+        </div>
+        
+        <div style="padding: 10px 10px 10px 10px; background-color: #444444; color:white; font-size: 20px;">
+        <h2 style="text-transform: capitalize;"> Reasons for choosing this study</h2>
+        <hr>
+        <ul>
+            <li>Theory vs Practice</li>
+            <li>Creating things from scratch</li>
+        </ul>   
+        <ul>    
+            <li>Studying alone</li>
+            <li>Making something together</li>
+        </ul>
+        <img style="width: 30%; border-color: black; border-width: 2px; border-style: solid; margin-left: 20px;" src="https://www.3dtotalgames.com/wp-content/uploads/2015/05/theorypractice.jpg">
+        <img style="width: 30%; height: 302px; border-color: black; border-width: 2px; border-style: solid; margin-left: 20px;" src="https://donovan-group.com/wp-content/uploads/2015/08/del_team-1080x675.jpg">
+        <img style="width: 30%; height: 302px; border-color: #444444; border-width: 2px; border-style: solid; margin-left: 20px;" src="https://i.ppy.sh/94b75a8ae59e2b618024559923dc604fcbd45c4d/687474703a2f2f7075752e73682f37566167382e706e67">
+</div>
 
+<a href="https://osu.ppy.sh/home" style="text-decoration: none;"><div id="osu">osu!</div></a>
 </body>
 
 
 <!--Profile Page
     test
-<h1 id="#profilepage">this is text</h1> -->
+<h1 id="#profilepage">this is text</h1>
+
+<div id="header">
+            <h1>Welcome to my site!</h1>
+            <img src="https://cdn.discordapp.com/attachments/716513701783535636/750298985427894312/me.jpg">
+        </div>
+
+
+-->
+
+
 
 </html>

@@ -3,6 +3,19 @@ body {
     color: #0078cc;
 }
 
+#header {
+    background-color: #4285f4;
+    text-align: center;
+}
+
+#header img {
+    width: 275px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
 .hz-logo {
     width: 156px;
     height: 40px;
@@ -17,14 +30,39 @@ body {
 .bigborder {
     border-color: black;
     border-width: 5px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    border-style: solid;
 }
 
 .navigation {
-    background-color: blue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 75px;
+}
+
+.navigation ul {
+    padding: 0px;
+    margin: 10px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    font-family: monospace, sans-serif;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.blackborder {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
